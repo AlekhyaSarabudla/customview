@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Designs using Custom View"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="20dp"
+            app:cardBackgroundColor="#cd5c5c"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom Button"
+                android:textSize="22dp"
+                android:layout_gravity="center"
+                android:textColor="#fffafa"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+
+                />
+            <Button
+                android:layout_width="170dp"
+
+                android:layout_height="170dp"
+                android:background="@android:color/transparent"
+                android:onClick="custombutton"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="20dp"
+            app:cardBackgroundColor="#bc8f8f"
+            android:layout_marginLeft="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom Checkbox"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="#fffafa"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+
+                />
+            <Button
+                android:layout_width="180dp"
+
+                android:layout_height="180dp"
+
+                android:background="@android:color/transparent"
+
+                android:onClick="customcheckbox"
+                />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:cardCornerRadius="20dp"
+        app:cardMaxElevation="20dp"
+        app:cardBackgroundColor="#ffa07a"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomRadiobutton"
+            android:textSize="19dp"
+            android:layout_gravity="center"
+            android:textColor="#fffafa"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+
+            />
+
+
+        <Button
+            android:layout_width="180dp"
+
+            android:layout_height="180dp"
+            android:background="@android:color/transparent"
+            android:onClick="customradiobutton"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

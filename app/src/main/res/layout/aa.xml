@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Buttons"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#B22222"
+        />
+
+<com.me.CustomButton
+    android:id="@+id/custom_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#B22222"
+    android:text="CURVE SHAPE"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <com.me.CustomButton
+        android:id="@+id/custom_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B22222"
+        android:text="SHAPE WITH GRADIENT"
+        android:background="@color/colorPrimaryDark"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.me.CustomButton
+        android:id="@+id/custom_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B22222"
+        android:text="SELECTOR SHAPE"
+        android:background="@color/colorPrimaryDark"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.me.CustomButton
+        android:id="@+id/custom_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B22222"
+        android:text="TEXT SELECTOR"
+        android:background="@color/colorPrimaryDark"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+
+
+
+</LinearLayout>
